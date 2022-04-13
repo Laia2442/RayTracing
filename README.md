@@ -79,6 +79,12 @@ filename = ['Circles_por',num2str(por),'L_',num2str(UnitCell(1).*num),'.mat'];
 save(strcat(filepath,'\DataBank\',filename))
  ```
  Easily change the file name and folder location at the end of Main().
+ 
+ To find the mean free path of the particles, you can use the following expresion where L1 is the total simulation length (check paper or thesis for explanation)
+ ```bash
+ mfp_rt = 3/400*L1*Transmissivity;
+  ```
+Check my other repository for how to use the resulting mean free path to compute the thermal conductivity of nano-structured silicon.
 
 Data Visualization
 -
@@ -121,9 +127,3 @@ You can visualize your geometry (unit cell) and how it affects your particles "i
 ```
 I recommend using less than 5 particles to begin with your project to make sure all boundries are correct and the particle is behaving as intended. 
 Trying to run the video with a large number of particles might result in RAM overload.
-
-To find the mean free path of the particles, you can use the following expresion where L1 is the total simulation length (check paper or thesis for explanation)
- ```bash
- mfp_rt = 3/400*L1*Transmissivity;
-  ```
-Check my other repository for how to use the resulting mean free path to compute the thermal conductivity of nano-structured silicon.
