@@ -3,8 +3,8 @@
 
 This MATLAB code allows the user to quickly track a defined number of particles across a structure that can include pores, grain boundaries, and inclusions.
 
-I worked on this project during my Ph.D. so you can see all the details on my dissertation here 
-https://escholarship.org/uc/item/0k36t381
+I worked on this project during my Ph.D. so you can see all the details on my [dissertation] 
+(https://escholarship.org/uc/item/0k36t381).
 This code or versions of it were used in Chapeters 2 to 4.
 
 
@@ -80,7 +80,7 @@ save(strcat(filepath,'\DataBank\',filename))
  ```
  Easily change the file name and folder location at the end of Main().
  
- To find the mean free path of the particles, you can use the following expresion where L1 is the total simulation length (check paper or thesis for explanation)
+ To find the mean free path of the particles, you can use the following expresion where L1 is the total simulation length (check dissertation for explanation)
  ```bash
  mfp_rt = 3/400*L1*Transmissivity;
   ```
