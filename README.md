@@ -3,8 +3,7 @@
 
 This MATLAB code allows the user to quickly track a defined number of particles across a structure that can include pores, grain boundaries, and inclusions.
 
-I worked on this project during my Ph.D. so you can see all the details on my [dissertation] 
-(https://escholarship.org/uc/item/0k36t381).
+I worked on this project during my Ph.D. so you can see all the details on my [dissertation](https://escholarship.org/uc/item/0k36t381).
 This code or versions of it were used in Chapeters 2 to 4.
 
 
